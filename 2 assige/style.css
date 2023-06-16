@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 16px 78px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.edyoda {
+    width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+    -webkit-font-smoothing: antialiased;
+ }
+ .stories {
+    margin: 0;
+    font-weight: 500;
+    font-style:italic ;
+    font-size: 1em;
+ }
+ .explore {
+    padding-top: 0;
+    padding-left: 70px;
+    color: #000;
+    padding-right: 8px;
+    
+ }
+ h1 {
+    margin: 0;
+    color: #000;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+ }
+ .main {
+    padding: 30px 200px;
+    background-color: #efefef;
+ }
+ .img1 {
+    width: 30px;
+    height: 30px;
+    padding-right: 15px;
+ }
+ .fil {
+    font-size: 16px;
+    margin-left: 8px;
+    font-weight: 600;
+    padding-bottom: 30px;
+ }
+ .but {
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+
+ }
+ .butt :hover {
+    color: #fff;
+    background-color: #0084ff;
+ }
+ .card {
+    width: 30%;
+    background-color: #fff;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+
+  }
+  .img2 {
+    height: 176px;
+    width: 100%;
+  }
+  .img2 img {
+    width: 100% ;
+    height: 100%;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+  }
+  .tex {
+    padding: 10px 24px ;
+    text-overflow: ellipsis;
+  }
+  .tittle h1 {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+  }
+  .date {
+    padding-top: 4px;
+  }
+  .span1 {
+    color: #0096ff;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    padding-right:4px ;
+    
+  }
+  .span2 {
+    border-left: 2px solid black;
+  }
+  .span3 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 4px;
+  }
+  .par {
+    margin: 4px 0 ;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.43;
+    text-overflow:ellipsis;
+
+  }
+
+ footer {
+    background-color: #172146;
+    padding: 80px 16%;
+ }
