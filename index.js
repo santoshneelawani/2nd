@@ -1,7 +1,7 @@
 function validate() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if(username === username && password==password && username.length > 1)
+    if(username === password&& username.length > 1)
      {
       alert("Login Successful!");
       window.localStorage.setItem("loginStatus", true);
@@ -11,4 +11,13 @@ function validate() {
       window.location.href = "index.html"; 
    }
   }
+
+
+let status = window.localStorage.getItem("loginStatus");
+function logOut() {
+  window.localStorage.setItem("loginStatus", "false");
+  window.location.href = "index.html";
+}
+
+
   
