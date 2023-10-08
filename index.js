@@ -5,19 +5,12 @@ function validate() {
      {
       alert("Login Successful!");
       window.localStorage.setItem("loginStatus", true);
-      window.location.href = "main_page.html"; 
+      window.location.href = "order.html"; 
     } else {
       alert("Please enter valid credentials!");
       window.location.href = "index.html"; 
    }
   }
-
-
-let status = window.localStorage.getItem("loginStatus");
-function logOut() {
-  window.localStorage.setItem("loginStatus", "false");
-  window.location.href = "index.html";
-}
 
 
   
